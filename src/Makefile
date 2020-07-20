@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: vgongora <marvin@42.fr>                    +#+  +:+       +#+         #
+#    By: vgongora <vgongora@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/07/29 10:25:29 by vgongora          #+#    #+#              #
-#    Updated: 2018/08/15 11:49:20 by vgongora         ###   ########.fr        #
+#    Updated: 2020/07/20 11:53:53 by vgongora         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,12 +21,12 @@ SRC = read.c \
 	  place.c \
 	  main.c \
 
-DIR = ./libft
+DIR = ../libft/src
 
 all: $(NAME)
 $(NAME):
 	make all -C $(DIR)
-	gcc $(FLAGS) -o $(NAME) $(SRC) ./libft/libft.a
+	gcc $(FLAGS) -o $(NAME) $(SRC) ./libft/src/libft.a
 
 clean:
 	make clean -C $(DIR)

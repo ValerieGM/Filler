@@ -6,14 +6,14 @@
 /*   By: vgongora <vgongora@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/08/04 13:01:47 by vgongora          #+#    #+#             */
-/*   Updated: 2020/07/19 21:55:38 by vgongora         ###   ########.fr       */
+/*   Updated: 2020/07/20 11:47:32 by vgongora         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FILLER_H
 # define FILLER_H
 
-# include "./libft/includes/libft.h"
+# include "../libft/includes/libft.h"
 # include <stdio.h>
 
 typedef struct	s_filler
