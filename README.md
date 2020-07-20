@@ -33,5 +33,4 @@ The aim of the project is the introduction to basic algorithms and to manipulate
         *./resources/filler_vm -p1 ./resources/player/abanlin.filler -p2 ./filler -v -f resources/maps/map00
 
 ### How The Game Rolls
-![Roll of the Game]
-(https://github.com/ValerieGM/Filler/tree/master/resources/filler.png)
+![Game Play](https://github.com/ValerieGM/Filler/tree/master/resources/filler.png)
